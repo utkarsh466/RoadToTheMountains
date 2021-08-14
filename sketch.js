@@ -1,11 +1,11 @@
 var GroundImg, ground;
 var player, playerImg, playerCollided;
-var treeImg, coinImg;
+var coinImg;
 var score = 0;
 var gameState = "PLAY";
 
 function preload() {
-    treeImg = loadImage("img/tree.png");
+    
     playerImg = loadAnimation(
         "img/boy1.png",
         "img/boy2.png",
