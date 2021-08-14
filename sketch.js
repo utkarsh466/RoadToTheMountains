@@ -60,8 +60,8 @@ function draw() {
         }
     }
     if (gameState === "END") {
-        textSize(50);
-        text("YouWin!!", 250, 250);
+        textSize(30);
+        text("You Reached the Mountain!!", 250, 250);
         ground.velocityY = 0;
         player.changeAnimation("collided", playerCollided);
         player.animation.looping = false;
